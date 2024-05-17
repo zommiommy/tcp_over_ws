@@ -1,0 +1,13 @@
+[package]
+name = "tcp_over_https"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+clap = {version="4.5.4", features=["derive"]}
+crypto_box = "0.9.1"
+env_logger = "0.11.3"
+log = "0.4.21"
+websocket = "0.27.1"
